@@ -22,7 +22,7 @@ public:
             bool didSwap = false;
             for (int j = 0; j <= i - 1; j++) {
                 if (nums[j] > nums[j + 1]) {
-                    swap(nums[j], nums[j + 1]);
+                    swap(nums[j], nums[j + 1]); // swap function
                     didSwap = true;
                 }
             }
