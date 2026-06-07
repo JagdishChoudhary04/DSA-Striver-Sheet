@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int a, b;
+    int a, b; // Initialize integers a and b
     cout << "Enter two numbers: "; 
     cin >> a >> b;
     int sum = a+b;
